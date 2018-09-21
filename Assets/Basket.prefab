@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23175780074615022}
   - component: {fileID: 65620506034858862}
   - component: {fileID: 54860746154304426}
+  - component: {fileID: 114506038278832122}
   m_Layer: 10
   m_Name: Basket
   m_TagString: Untagged
@@ -58,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bfe79000b3a241b4f9a71307e5adbb60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,3 +113,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114506038278832122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091575334246724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdf5108320e1814183283ce0b9916fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ApplePicker : MonoBehaviour {
-
-    [Header("Set in Inspector")] // a
+    [Header("Set in Inspector")] 
     public GameObject basketPrefab;
     public int numBaskets = 3;
     public float basketBottomY = -14f;
